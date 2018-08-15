@@ -14,7 +14,7 @@ uppercase.toUpperCase() === uppercase
 }
 
 function logWhisper(string) {
-var lowercase = "whisper"
+var lowercase = "hello"
 lowercase.toLowerCase() === lowercase
-console.log("whisper")
+console.log("hello")
 }
