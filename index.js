@@ -11,6 +11,6 @@ var lowercase = "I can't hear you!"
 
  mixedCased.toLowerCase() === lowercase
 
-  return (string)
+  return ("I can't hear you!")
 
 }
