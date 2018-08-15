@@ -20,10 +20,12 @@ console.log("hello")
 }
 
 function sayHiToGrandma(string) {
+  var lowerCase = "i can\t hear you!"
+  var upperCase = "I CAN\T HEAR YOU!"
   var mixedCase = 'I can\t hear you!'
   mixedCase.toLowerCase() === mixedCase
   mixedCase.toUpperCase() === mixedCase
 
-return sayHiToGrandma.toUpperCase()
+return string.toMixedCase()
 
 }
