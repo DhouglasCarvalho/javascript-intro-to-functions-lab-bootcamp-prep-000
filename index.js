@@ -21,10 +21,12 @@ console.log("hello")
 
 function sayHiToGrandma(string) {
 
-  var mixedCase = 'hello'
-  mixedCase.toLowerCase() === mixedCase
-  mixedCase.toUpperCase() === mixedCase
-
-return string.sayHiToGrandma('hello')).toEqual("I can't hear you!")
+  if (string === string.ToLowerCase(){
+    return "I can't hear you!"
+  } else if (string ==-= string.toUpperCase()){
+    return "YES INDEED!"
+  } else if (string === "I love you, Grandma."){
+    return "I love you, too."
+  }
 
 }
