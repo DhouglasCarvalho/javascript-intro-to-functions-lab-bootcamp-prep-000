@@ -24,6 +24,6 @@ function sayHiToGrandma(string) {
   mixedCase.toLowerCase() === mixedCase
   mixedCase.toUpperCase() === mixedCase
 
-return sayHiToGrandma()
+return sayHiToGrandma.toUpperCase()
 
 }
